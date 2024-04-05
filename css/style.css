@@ -10971,6 +10971,10 @@ h5,
 .owl-carousel .owl-item.active {
   opacity: 1;
 }
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
 .owl-carousel .owl-dots {
   text-align: center;
 }
